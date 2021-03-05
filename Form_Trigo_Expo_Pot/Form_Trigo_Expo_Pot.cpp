@@ -7,6 +7,7 @@
 #include <iomanip>
 #include "Form_Trigo_Expo_Pot.h"
 
+//¡IMPORTANTE: NO CAMBIAR NADA, SOLO AGREGAR LA FORMA EXPONENCIAL DE LA FORMA TRIGONOMÉTRICA Y POTENCIAL!
 
 using namespace std;
 
@@ -81,7 +82,7 @@ void formTrig()
 
 void formPot()
 {
-	double op, op2, pot, real, img, r, ang, cosR, senR;
+	double op, op2, pot, real, img, r, ang, cosR, senR, num;
 
 	cout << "Ingrese potencia" << endl;
 	cin >> pot;
@@ -101,7 +102,9 @@ void formPot()
 	{
 		cosR = cos((pot * ang)); //calcula el coseno, devuleve un número en radian
 
-		senR = round(sin((pot * ang)));//calcula el seno, devuelve un número en radian, en este caso es necesario redondear para que de un valor correcto.
+		num = pot * ang; //multiplica el número para que se convierta en radianes debido a que el ángulo está en radianes
+
+		senR = sin(num);//calcula el seno
 
 		if (senR == 0)//si el seno de la función es igual a cero entonces el resultado de la ecuación va a ser un número real debido a que el seno se multiplica por i
 		{
@@ -147,7 +150,9 @@ void formPot()
 
 		cosR = cos((pot * ang));//calcula el coseno, devuleve un número en radian
 
-		senR = round(sin((pot * ang)));//calcula el seno, devuelve un número en radian, en este caso es necesario redondear para que de un valor correcto.
+		num = pot * ang; //multiplica el número para que se convierta en radianes debido a que el ángulo está en radianes
+
+		senR = sin(num);//calcula el seno
 
 		if (senR == 0)//si el seno de la función es igual a cero entonces el resultado de la ecuación va a ser un número real debido a que el seno se multiplica por i
 		{
@@ -192,7 +197,9 @@ void formPot()
 
 		cosR = cos((pot * ang));//lo mismo
 
-		senR = round(sin((pot * ang)));//lo mismo
+		num = pot * ang; //multiplica el número para que se convierta en radianes debido a que el ángulo está en radianes
+
+		senR = sin(num);//calcula el seno
 
 		if (senR == 0)//lo mismo
 		{
@@ -232,7 +239,11 @@ void formPot()
 
 		cosR = cos((pot * ang));
 
-		senR = round(sin((pot * ang)));
+		num = pot * ang; //multiplica el número para que se convierta en radianes debido a que el ángulo está en radianes
+						 //la operacion de la multiplicación se hace aparte debido a que proporciona una mejor precisión 
+						 //al momento de calcular el seno
+
+		senR = sin(num);//calcula el seno
 
 		if (senR == 0)
 		{
@@ -344,6 +355,7 @@ int main()
 
 	char opt;
 	
+
 	do
 	{
 		int opc, vR, vM, can;
@@ -386,7 +398,7 @@ int main()
 		cout << "desea hacer algo mas? S/N" << endl;
 		cin >> opt;
 	} while (opt == 's');
-
+	
 	return 0;
 }
 
