@@ -34,6 +34,9 @@ void formTrig()
 		cout << "--------------------------------------------------------" << endl;
 		cout << "Z = "<< fixed << setprecision(1) << r << "(cos(" << fixed << setprecision(2) << ang << ") + " << "isen(" << fixed << setprecision(2) << ang << "))" << endl;
 		cout << "--------------------------------------------------------" << endl;
+
+		//agregar la forma exponencial aca abajo
+
 	}
 
 	if (real < 0 && img > 0)//si pasa esta condición quiere decir que el punto está en el sector II
@@ -44,6 +47,9 @@ void formTrig()
 		cout << "--------------------------------------------------------" << endl;
 		cout << "Z = "<< fixed << setprecision(1) << r << "(cos(" << fixed << setprecision(2) << ang << ") + " << "isen(" << fixed << setprecision(2) << ang << "))" << endl;;
 		cout << "--------------------------------------------------------" << endl;
+
+		//agregar la forma exponencial aca abajo
+
 	}
 
 	if (real < 0 && img < 0)//si pasa esta condición quiere decir que el punto está en el sector III
@@ -54,6 +60,9 @@ void formTrig()
 		cout << "--------------------------------------------------------" << endl;
 		cout << "Z = "<< fixed << setprecision(1) << r << "(cos("<< fixed << setprecision(2) << ang << ") + " << "isen("<< fixed << setprecision(2) << ang << "))" << endl;
 		cout << "--------------------------------------------------------" << endl;
+
+		//agregar la forma exponencial aca abajo
+
 	}
 
 	if (real > 0 && img < 0)//si pasa esta condición quiere decir que el punto está en el sector IV
@@ -64,6 +73,9 @@ void formTrig()
 		cout << "--------------------------------------------------------" << endl;
 		cout << "Z = " << fixed << setprecision(1) << r << "(cos(" << fixed << setprecision(2) << ang << ") + " << "isen(" << fixed << setprecision(2) << ang << "))" << endl;
 		cout << "--------------------------------------------------------" << endl;
+
+		//agregar la forma exponencial aca abajo
+
 	}
 }
 
@@ -96,6 +108,9 @@ void formPot()
 			cout << "--------------------------------------------------------" << endl;
 			cout << "Z^" << pot << " = " << r * cosR  << endl;
 			cout << "--------------------------------------------------------" << endl;
+
+			//agregar la forma exponencial aca abajo
+
 		}
 		else
 		{
@@ -110,12 +125,18 @@ void formPot()
 				cout << "--------------------------------------------------------" << endl;
 				cout << "Z^" << pot << " = " << r * cosR << " + " << r * senR << "i" << endl;
 				cout << "--------------------------------------------------------" << endl;
+
+				//agregar la forma exponencial aca abajo
+
 			}
 			else
 			{
 				cout << "--------------------------------------------------------" << endl;
 				cout << "Z^" << pot << " = " << r * cosR << "" << r * senR << "i" << endl;
 				cout << "--------------------------------------------------------" << endl;
+
+				//agregar la forma exponencial aca abajo
+
 			}
 		}
 	}
@@ -133,6 +154,9 @@ void formPot()
 			cout << "--------------------------------------------------------" << endl;
 			cout << "Z^" << pot << " = " << r * cosR << endl;
 			cout << "--------------------------------------------------------" << endl;
+
+			//agregar la forma exponencial aca abajo
+
 		}
 		else
 		{
@@ -147,12 +171,17 @@ void formPot()
 				cout << "--------------------------------------------------------" << endl;
 				cout << "Z^" << pot << " = " << r * cosR << " + " << r * senR << "i"<<  endl;
 				cout << "--------------------------------------------------------" << endl;
+
+				//agregar la forma exponencial aca abajo
 			}
 			else
 			{
 				cout << "--------------------------------------------------------" << endl;
 				cout << "Z^" << pot << " = " << r * cosR << "" << r * senR << "i" << endl;
 				cout << "--------------------------------------------------------" << endl;
+
+				//agregar la forma exponencial aca abajo
+
 			}
 		}
 	}
@@ -170,6 +199,9 @@ void formPot()
 			cout << "--------------------------------------------------------" << endl;
 			cout << "Z^" << pot << " = " << r * cosR << endl;
 			cout << "--------------------------------------------------------" << endl;
+
+			//agregar la forma exponencial aca abajo
+
 		}
 		else
 		{
@@ -178,12 +210,18 @@ void formPot()
 				cout << "--------------------------------------------------------" << endl;
 				cout << "Z^" << pot << " = " << r * cosR << " + " << r * senR << "i" << endl;
 				cout << "--------------------------------------------------------" << endl;
+
+				//agregar la forma exponencial aca abajo
+
 			}
 			else
 			{
 				cout << "--------------------------------------------------------" << endl;
 				cout << "Z^" << pot << " = " << r * cosR << "" << r * senR << "i" << endl;
 				cout << "--------------------------------------------------------" << endl;
+
+				//agregar la forma exponencial aca abajo
+
 			}
 		}
 	}
@@ -201,6 +239,9 @@ void formPot()
 			cout << "--------------------------------------------------------" << endl;
 			cout << "Z^" << pot << " = " << r * cosR << endl;
 			cout << "--------------------------------------------------------" << endl;
+
+			//agregar la forma exponencial aca abajo
+
 		}
 		else
 		{
@@ -209,12 +250,18 @@ void formPot()
 				cout << "--------------------------------------------------------" << endl;
 				cout << "Z^" << pot << " = " << r * cosR << " + " << r * senR << "i" << endl;
 				cout << "--------------------------------------------------------" << endl;
+
+				//agregar la forma exponencial aca abajo
+
 			}
 			else
 			{
 				cout << "--------------------------------------------------------" << endl;
 				cout << "Z^" << pot << " = " << r * cosR << "" << r * senR << "i" << endl;
 				cout << "--------------------------------------------------------" << endl;
+
+				//agregar la forma exponencial aca abajo
+
 			}
 		}
 	}
