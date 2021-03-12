@@ -351,6 +351,7 @@ void dAgrupados(int can)
 int main()
 {
 	cout << "Julian me va a pagar";
+	cout << "pero a puños" << endl;
 
 	cout << "Seleccion de programa: " << endl;
 
