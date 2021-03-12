@@ -185,7 +185,7 @@ void formPot()
 				cout << "Z^" << pot << " = " << r * cosR << "" << r * senR << "i" << endl;
 				cout << "--------------------------------------------------------" << endl;
 
-				//agregar la forma exponencial aca abajo
+				
 
 			}
 		}
@@ -362,7 +362,7 @@ int main()
 
 		int sel;
 
-		cout << "1. Forma trigonometrica" << "\n2. Forma de potencia" << "\n3. PROGRAMA QUE CALCULA EL ERROR ABSOLUTO Y RELATIVO" << "\n4. Salir" << endl;
+		cout <<"Hola dani, te escribo desde mi machine  "<< "1. Forma trigonometrica" << "\n2. Forma de potencia" << "\n3. PROGRAMA QUE CALCULA EL ERROR ABSOLUTO Y RELATIVO" << "\n4. Salir" << endl;
 		cin >> sel;
 
 		switch (sel)
