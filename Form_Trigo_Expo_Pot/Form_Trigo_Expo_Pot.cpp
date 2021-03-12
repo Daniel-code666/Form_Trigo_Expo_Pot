@@ -17,6 +17,7 @@ void formTrig()
 {
 	double real, img, r, ang;
 	
+	
 	cout << "Ingrese la parte real de la ecuacion" << endl;
 	cin >> real;
 	cout << "Ingrese la parte imaginaria de la ecuacion" << endl;
@@ -349,7 +350,7 @@ void dAgrupados(int can)
 
 int main()
 {
-	
+	cout << "Julian me va a pagar";
 
 	cout << "Seleccion de programa: " << endl;
 
